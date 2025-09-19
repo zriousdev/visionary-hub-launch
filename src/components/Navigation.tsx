@@ -44,9 +44,16 @@ const Navigation = () => {
             <div className="flex-shrink-0">
               <button
                 onClick={() => scrollToSection("home")}
-                className="text-xl lg:text-2xl font-bold text-accent hover:text-primary transition-colors"
+                className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
               >
-                Choudhary Hub LLP
+                <img 
+                  src="/src/assets/choudhary-hub-logo.png" 
+                  alt="Choudhary Hub LLP" 
+                  className="h-10 w-auto"
+                />
+                <span className="hidden sm:block text-lg font-bold text-accent">
+                  Choudhary Hub LLP
+                </span>
               </button>
             </div>
 
